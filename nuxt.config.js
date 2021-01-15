@@ -6,8 +6,8 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - jacob-west-creative',
-    title: 'jacob-west-creative',
+    titleTemplate: '%s - Jacob West Creative',
+    title: 'Jacob West Creative',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
