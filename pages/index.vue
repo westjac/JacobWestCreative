@@ -9,6 +9,19 @@
           outlined
           large
           color="white">Photo</v-btn>
+        <v-btn
+          href="http://www.youtube.com/c/JacobWest"
+          target="_blank"
+          class="ma-2"
+          outlined
+          large
+          color="white">Video</v-btn>
+        <v-btn
+          to="/code"
+          class="ma-2"
+          outlined
+          large
+          color="white">Code</v-btn>
       </div>
     </v-col>
   </v-row>
