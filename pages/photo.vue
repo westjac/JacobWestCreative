@@ -2,7 +2,7 @@
   <v-row justify="center" align="center">
     <v-col cols="12" sm="8" md="6">
       <div class="text-center">
-          Photo.
+        Photo coming soon.
       </div>
     </v-col>
   </v-row>
