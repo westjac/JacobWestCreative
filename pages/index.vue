@@ -8,20 +8,26 @@
           class="ma-2"
           outlined
           large
-          color="white">Photo</v-btn>
+          color="white">
+          Photo
+        </v-btn>
         <v-btn
-          href="http://www.youtube.com/c/JacobWest"
-          target="_blank"
+          to="/web"
           class="ma-2"
           outlined
           large
-          color="white">Video</v-btn>
+          color="white">
+          Websites
+        </v-btn>
         <v-btn
-          to="/code"
+          href="https://www.youtube.com/channel/UCiLhIQvzkE5qempPPvArq1w"
+          target = "_blank"
           class="ma-2"
           outlined
           large
-          color="white">Code</v-btn>
+          color="white">
+          Video
+        </v-btn>
       </div>
     </v-col>
   </v-row>

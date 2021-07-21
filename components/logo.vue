@@ -1,6 +1,6 @@
 <template>
   <div class="JWCLogo">
-    <img src="/jbw-white.png" alt="Jacob West Creative" width="600em">
+    <img id ="homeLogo" src="/jbw-white.png" alt="Jacob West Creative" width="600em">
   </div>
 </template>
 
