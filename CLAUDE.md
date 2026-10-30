@@ -21,7 +21,10 @@ Node version matters. The deps (Nuxt 2.14, node-sass/fibers) only build on **Nod
 
 ## Deploy
 
-`.github/workflows/cd.yml` runs `yarn generate` and publishes `dist/` to the `gh-pages` branch with `peaceiris/actions-gh-pages`. GitHub Pages serves that branch with the custom domain from `CNAME` (`jacobwestcreative.com`). The workflow triggers on both `push` and `pull_request`, so a PR build can also deploy.
+There are two deploy paths:
+
+- **Netlify** (project `jacobwestcreative`) is connected to the repo and builds every PR into a deploy preview (`deploy-preview-<n>--jacobwestcreative.netlify.app`). Build settings live in the Netlify dashboard, since the repo has no `netlify.toml`. This is probably what serves production.
+- `.github/workflows/cd.yml` is a legacy GitHub Pages workflow (`yarn generate`, then push `dist/` to `gh-pages`, with the domain from `CNAME`). It runs on `push` and `pull_request`, and it currently **fails** at `yarn install`: node-gyp can't build node-sass/fibers on the current ubuntu-latest runner. Remove it or fix it during a stack upgrade.
 
 ## Layout
 
